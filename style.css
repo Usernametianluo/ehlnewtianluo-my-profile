@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+body {
+  font: 1.2rem "Fira Sans", sans-serif;
+  background:#495E57;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h2 {
+  font-weight: bolder;
+  color: #CE5A67;
+}
+
+p {
+  text-align: center;
+}
+
+.card-white.intro p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+.card-white {
+  background-color: #F9B572;
+  padding: 40px;
+  box-shadow: 10px 20px 20px rgb(0 0 0 / 20%);
+  border-radius: 18px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.btn-blue {
+  background-color: #CE5A67;
+  padding: 20px 25px;
+  text-transform: uppercase;
+  border-radius: 18px;
+  color: white;
+
+  transition: opacity 0.4s ease-in-out;
+}
+
+.btn-blue:hover {
+  opacity: 0.8;
+  color: #45474B;
+  transition: opacity 0.4s ease-in-out;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 35px;
+}
+
+.list-inline i {
+  font-size: 60px;
+  color: #FCF5ED;
+}
+
+.list-inline i:hover {
+  color: #1F1717;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
